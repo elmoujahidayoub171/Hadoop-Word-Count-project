@@ -1,0 +1,7 @@
+iOnce upon a time there was a young student named Ayoub. Ayoub loved learning about data and computers. Every day he practiced coding and solving problems.
+
+One day his teacher gave him a challenge to analyze a large amount of text using Hadoop. At first Ayoub was confused, but he did not give up. He started learning MapReduce and understood how mapper and reducer work.
+
+With practice, Ayoub became better and faster. He was able to process big data and extract useful information. His teacher was proud of him and encouraged him to continue learning.
+
+In the end, Ayoub realized that patience and persistence are the keys to success in technology and in life.
