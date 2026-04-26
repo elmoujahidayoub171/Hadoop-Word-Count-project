@@ -2,18 +2,21 @@ Le projet Word Count est une application Hadoop MapReduce de base utilisée pour
 
 ## 2. Hiérarchie du projet
 
-```text
-WordCountProject/
+hadoop-wordcount-project/
 │
 ├── src/
 │   └── WordCount.java
 │
 ├── input/
-│   └── input.txt
+│   └── words.txt
 │
-├── output/
+├── output_sample/
 │   └── part-r-00000
 │
-├── wordcount.jar
+├── screenshots/
+│   ├── hdfs-input.png
+│   ├── job-running.png
+│   └── output-result.png
 │
-└── README.md
+├── README.md
+└── .gitignore

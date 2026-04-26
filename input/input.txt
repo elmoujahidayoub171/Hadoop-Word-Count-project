@@ -1,0 +1,21 @@
+Hadoop is a framework for distributed data processing.
+Hadoop uses HDFS to store large files across multiple machines.
+MapReduce is a programming model used by Hadoop.
+The mapper reads input data and emits key value pairs.
+The reducer groups the same keys and calculates the final result.
+
+Big data requires powerful tools for storage and processing.
+Hadoop helps process big data in a distributed environment.
+HDFS stores data in blocks across different nodes.
+MapReduce divides the work between mapper and reducer tasks.
+
+This Word Count project counts the number of occurrences of each word.
+The input file contains several lines of text.
+Each word is extracted by the mapper.
+Then Hadoop groups identical words together.
+Finally the reducer calculates the total count for every word.
+
+Hadoop Hadoop Hadoop
+MapReduce MapReduce
+data data data data
+word word word
