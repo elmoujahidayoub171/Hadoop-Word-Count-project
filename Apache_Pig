@@ -1,0 +1,14 @@
+-- Charger le fichier texte
+lines = LOAD 'story.txt' AS (line:chararray);
+
+-- Découper chaque ligne en mots
+words = FOREACH lines GENERATE FLATTEN(TOKENIZE(line)) AS word;
+
+-- Regrouper les mots identiques
+grouped_words = GROUP words BY word;
+
+-- Compter le nombre d'occurrences de chaque mot
+word_count = FOREACH grouped_words GENERATE group AS word, COUNT(words) AS count;
+
+-- Sauvegarder le résultat dans HDFS
+STORE word_count INTO 'Output';
